@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang= "en">
+<head>
+  <meta charset="UTF-8">
+    <title>Layout Challenge</title>
+    <style type="text/css">
+    body
+    	{
+		background: url(images/grass.jpg) green;
+		background-size: cover;
+
+    	}
+    div 	
+    	{ 
+    	vertical-align: top;
+		display: inline-block;
+		width:620px;
+		height: auto;
+		margin:0 auto 0 auto;
+		background-color: #99CCFF;
+		padding: 20px;
+		border:2px solid black;
+		border-radius: 10px;
+		}
+  	 img
+  	 	{
+ 	 	margin: 0 25px 25px 25px;
+ 		border:2px solid black;
+ 	 	}
+ 	 	.hue 
+ 	 	{
+ 	 	-webkit-filter: hue-rotate(90deg);
+ 	 	}
+ 	 	.sepia
+ 	 	{ 
+		-webkit-filter: sepia(1);
+ 	 	}
+ 	 	.gray 
+ 	 	{
+ 	 	 -webkit-filter: grayscale(.8);
+ 	 	}
+ 	 	.alot
+ 	 	{
+ 	 	-webkit-filter: drop-shadow(8px 8px 10px red) blur(5px) saturate(500%) opacity(0.8);
+
+		}
+		img:hover {
+  		filter: none;
+  		-webkit-filter: none; /*Glad there is a slackoverflow*/
+		 }
+  </style>
+</head>
+<body>
+    
+    <div><h1>Sepia</h1><img class="sepia" alt="Wabbitz" src="images/rabbits.jpg" width="550px" height="350px">
+    </div>
+    <div><h1>Hue-Rotate</h1><img class="hue" alt="Wabbitz" src="images/rabbits.jpg" width="550px" height="350px">
+    </div>
+    <div><h1>Grayscale</h1><img class="gray" alt="Wabbitz" src="images/rabbits.jpg" width="550px" height="350px">
+    </div>
+    <div><h1>More than One</h1><img class="alot" alt="Wabbitz" src="images/rabbits.jpg" width="550px" height="350px">
+    </div>
+
+</body>
+</html>

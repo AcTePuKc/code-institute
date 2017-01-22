@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang= "en">
+<head>
+  <meta charset="UTF-8">
+    <title>Layout Challenge</title>
+    <style type="text/css">
+    body{
+		background-image: url(images/fantasy.jpg);
+		background-size: contain;
+
+    }
+    div{ 
+    		vertical-align: top;
+			display: inline-block;/* to align images side by side */
+			width:620px;
+			height: auto;
+			margin:0 auto 0 auto;
+			background-color: #99CCFF;
+			padding: 20px;
+			border:2px solid black;
+			border-radius: 10px;
+
+ }
+ #bang {
+ 	-webkit-filter: hue-rotate(10deg);
+ 	float: right;
+ 	margin: 0 25px 25px 25px;
+ 	border:2px solid black;
+	}
+ #drum {
+	-webkit-filter: blur(2px) sepia(.5) opacity(0.8);
+ 	float: left;
+ 	margin: 0 25px 25px 25px;
+ 	border:2px solid black;
+ 	 }
+  </style>
+</head>
+<body>
+    <div><h1> Bang<h1><img id="bang" alt="Bang Bang poster"src="images/bang-bang.png" width="250px" height="250px"><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. </h2><p><h2>Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<h2></p></div>
+    
+    <div><h1>Drums</h1><img id="drum" alt="Some Drums" src="images/ludwigkit.jpg" width="250px" height="250px"><h2><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. </h2><p><h2>Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<h2></p></div>
+</body>
+</html>
