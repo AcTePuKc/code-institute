@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Gastra Super Menu</title>
+    <style>
+        p {
+            font-family: "Lucinda Grande", "Lucinda Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        }
+        .veg:before {
+            content: url(img/veggie.png) " "; /*whitespace added to distance icon from text*/
+        }
+ 
+        .meat:before {
+            content: url(img/meat.png) " ";
+        }
+ 
+        .main:after {
+            content: " " url(img/main.png);
+        }
+ 
+        #calculateTotal{
+            border: 1px solid #809956;
+            color: #fff;
+            background: #809956;
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+ 
+    </style>
+</head>
+<body>
+    <p class="veg">Rocket Drizzle Salad</p> <!--added veg classes-->
+    <p class="veg">All about the Beets</p>
+    <p class="veg">Great bowl of Broccoli</p>
+    <p class="veg main"> Lentil Masala with Spinach</p><!--added veg and meat classes-->
+    <p class="meat main">Peri Peri double Chicken</p> <!--added main and meat classes-->
+    <button id="calculateTotal">How Much?</button>
+</body>
+</html>

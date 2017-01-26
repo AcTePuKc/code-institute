@@ -1,0 +1,71 @@
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing​: border-box;
+	box-sizing​: border-box​;
+}
+body{
+	font-family: sans-serif​; 
+	background-color: #54403C; 
+}
+.ch-grid{
+	margin: 20px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+.ch-grid li{
+	width​: 220​px; 
+	height: 220​px​; 
+	display​: inline-block; 
+	margin​: 20px;
+}
+.ch-item{
+	width: 100%; 
+	height​: 100%; 
+	border-radius​: 50%; 
+	position​: relative;
+	cursor​: default;
+	box-shadow: inset 0 0 0 6px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.8);
+	transition​: all 0.4s ease-in-out;
+}
+.ch-img-1{
+	background: url(../images/gaming.jpg);
+}
+.ch-img-2{
+	background: url(../Images/character1.jpg);
+}
+.ch-img-3{
+	background-image: url(../images/character.jpg);
+}
+.ch-img-4{
+	background-image: url(../images/modelling.png);
+}
+.ch-info { 
+	position​ : ​ absolute​ ; 
+	background​ : ​ rgba​ (63,147,147, 0.8); width​ : ​ inherit​ ;
+	 height​ : ​ inherit​ ; 
+	 border-radius​ : 50​ %​ ; 
+	 opacity​ : 0; 
+	 transition​ : ​ all​ 1.4​ s​ ​ ease-in-out​ ; 
+	 transform​ : scale(0); 
+}
+.ch-info h3 { 
+	color​ : #fff; 
+	text-transform​ : ​ uppercase​ ; 
+	letter-spacing​ : 2​ px​ ;
+	font-size​ : 20​ px​ ; 
+	margin​ : 0 30​ px​ ; 
+	padding​ : 45​ px​ 0 0 0; 
+	height​ : 140​ px​ ; 
+	font-family​ : ​ 'Open Sans'​ , ​ Arial​ , ​ sans-serif​ ; 
+	text-shadow​ : 0 0 1​ px​ #fff, 0 1​ px​ 2​ px​ ​ rgba​ (0,0,0,0.3); 
+}
+.ch-info p { 
+	color​ : #fff; 
+	padding​ : 10​ px​ 5​ px​ ; 
+	font-style​ : ​ italic​ ; 
+	margin​ : 0 30​ px​ ; 
+	font-size​ : 12​ px​ ; 
+	border-top​ : 1​ px​ ​ solid​ ​ rgba​ (255,255,255,0.5); 
+	opacity​ : 0; 
+	transition​ : ​ all​ 1​ s​ ​ ease-in-out​ 0.4​ s​ ; 
+}   
